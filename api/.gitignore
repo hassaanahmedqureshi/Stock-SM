@@ -1,0 +1,39 @@
+# Ignore build output and dependencies
+bin/
+obj/
+*.user
+*.suo
+*.pdb
+*.cache
+*.log
+*.vs/
+*.nupkg
+*.snupkg
+*.dll
+*.exe
+*.runtimeconfig.json
+*.runtimeconfig.dev.json
+*.deps.json
+
+# Ignore NuGet packages
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Ignore Rider/JetBrains files
+.idea/
+.vs/
+
+# Ignore Visual Studio Code settings
+.vscode/
+
+# Ignore application data
+appsettings*.json
+
+# Ignore environment secrets
+.env
+.env.*
+
+# Ignore publish outputs
+wwwroot/
